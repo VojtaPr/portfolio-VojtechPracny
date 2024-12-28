@@ -113,7 +113,7 @@ body {
   .lightT, .lightP {
     margin-top: 20px; /* Adjust margin for spacing between buttons */
     width: 90%; /* Make buttons responsive in smaller screens */
-    margin-right: 100vw;
+    margin-right: 1000vw;
   }
 }
 
