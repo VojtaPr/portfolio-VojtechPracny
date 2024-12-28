@@ -12,6 +12,11 @@ body {
   padding: 10px;
   }
 
+.lightT; .lightP {
+    margin-left: 0;
+}
+
+
   @font-face {
     font-family: Oswald;
     src: url(Oswald-SemiBold.ttf);
@@ -127,6 +132,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   justify-content: center; /* Centers buttons horizontally */
+  aling-items: center;
 }
 
 .buttonBlock {
