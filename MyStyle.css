@@ -27,7 +27,8 @@ body {
   border-radius: 20px;
   width: 550px;
   border-radius: 15px;
-  max-width: 10%;
+  max-width: 100%;
+  min-width: 1000%;
 }
 
 
