@@ -1,0 +1,144 @@
+body {
+    background: #252525;
+  }
+
+  @font-face {
+    font-family: Oswald;
+    src: url(Oswald-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: ENGINE;
+    src: url(ENGINE.ttf);
+  } 
+
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.content {
+  padding: 10px;
+  }
+
+
+
+  .centerTitle{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;     /* Vertically center */
+  }
+
+  .TitleSquare {
+    border: 10px solid rgb(30, 196, 205);
+    border-radius: 10px;
+    background-color: rgb(43, 61, 61);
+    width:1815px;
+    padding-top: 3px;
+    margin-top: 20px;
+  }
+
+.TitleSquare > p {
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-family:Oswald;
+    text-align:center;
+    padding-bottom: 8px;
+}
+
+
+
+
+.centerStuff{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;     /* Vertically center */
+}
+
+.articleBox {
+  border: 3px solid #1ec4cd;
+  border-radius: 15px;
+  background-color: rgb(33, 46, 46);
+  width:1500px;
+  padding-top: 35px;
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+.articleBox > p {
+  color: #1ec4cd;
+  font-size: 30px;
+  font-family:Arial;
+  text-align:center;
+  padding-bottom: 30px;
+  font-weight:550;
+  margin-top: 10px;
+}
+
+.centerImg{
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center */
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#Certif{
+width: 584px;
+height: 408,5px;
+max-width: 90%;
+max-height: 90%;
+margin-top: 3vw;
+border-radius: 10px;
+}
+
+#usOut {
+width: 584px;
+height: 408,5px;
+max-width: 90%;
+max-height: 90%;
+margin-top: 3vw;
+border-radius: 10px;
+
+}
+#usIn {
+width: 584px;
+height: 408,5px;
+max-width: 90%;
+max-height: 90%;
+margin-top: 3vw;
+border-radius: 10px;
+
+}
+
+.centerBack{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;     /* Vertically center */
+}
+  .back {
+    margin-top: 3vw;
+    border: 2px solid rgb(30, 196, 205);
+    border-radius: 30px;
+    background-color: #252525;
+    padding-bottom: 7px;
+    width: 100px;
+    cursor: pointer;
+    margin-bottom:20px;
+  }
+.back > p {
+    color: rgb(30, 196, 205);
+    font-size: 30px;
+    font-family:Oswald;
+    text-align:center;
+}
+
+.back:hover {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(31, 78, 78);
+}
+.back:hover > p {
+  color: rgb(255, 255, 255);
+}
