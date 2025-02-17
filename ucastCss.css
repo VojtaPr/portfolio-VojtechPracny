@@ -84,18 +84,7 @@ font-weight:550;
   flex-wrap: wrap;
 }
 
-.centerVideo{
-  display: flex;
-  justify-content: center; /* Horizontally center */
-  align-items: center;     /* Vertically center */
-  flex-wrap: wrap;
-  margin-top: 50px;
-  gap: 20px;
-}
 
-.video{
-  max-width: 100%;
-}
 
 #tech{
 width: 584px;
