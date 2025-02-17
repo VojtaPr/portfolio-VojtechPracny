@@ -85,7 +85,7 @@ body {
   flex-wrap: wrap;
 }
 
-#Certif{
+#oldPc{
 width: 584px;
 height: 408,5px;
 max-width: 90%;
@@ -94,23 +94,22 @@ margin-top: 3vw;
 border-radius: 10px;
 }
 
-#usOut {
+#oldPcParts{
 width: 584px;
 height: 408,5px;
 max-width: 90%;
 max-height: 90%;
 margin-top: 3vw;
 border-radius: 10px;
-
 }
-#usIn {
+
+#phanteksNV5{
 width: 584px;
 height: 408,5px;
 max-width: 90%;
 max-height: 90%;
 margin-top: 3vw;
 border-radius: 10px;
-
 }
 
 .centerBack{
