@@ -85,6 +85,19 @@ body {
   flex-wrap: wrap;
 }
 
+.centerVideo{
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center */
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.video{
+  max-width: 100%;
+}
+
 #oldPc {
 width: 584px;
 height: 408,5px;
