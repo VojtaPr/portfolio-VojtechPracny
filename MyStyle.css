@@ -230,6 +230,7 @@ body {
 
 #language {
   border-radius: 100px;
+  max-width: 80%;
   margin-bottom: 5px;
 }
 
@@ -302,5 +303,6 @@ margin-top: 20px;
 .lightS4:hover > p {
   font-size: 60px;
 }
+
 
 
